@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "把 google 首頁旋轉",
-  "description": "旋轉180度讓你看的不清不楚",
-  "version": "1.0.0",
+  "name": "BoothWar",
+  "description": "This is a Chrome extension of getting Booth goods.",
+  "version": "0.0.0",
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
@@ -18,7 +18,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com.tw/*"
+        "https://www.google.com/*"
       ],
       "js": [
         "execute.js"
